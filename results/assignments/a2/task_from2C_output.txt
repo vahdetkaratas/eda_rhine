@@ -1,0 +1,49 @@
+Original eur_runoff vector:
+ [1] 1921 1922 1949 1954 1959 1963 1976 1990 2003 2015
+
+Sorted using sort():
+ [1] 2015 2003 1990 1976 1963 1959 1954 1949 1922 1921
+
+Sorted using order():
+ [1] 2015 2003 1990 1976 1963 1959 1954 1949 1922 1921
+
+All droughts list:
+$precipitation
+[1] 1921 1945 1954 1959 1976 2003 2015
+
+$runoff
+ [1] 1921 1922 1949 1954 1959 1963 1976 1990 2003 2015
+
+$soil_moisture
+[1] 1921 1922 1954 1959 1976 2003 2015
+
+
+Average intervals between droughts (years):
+$precipitation
+[1] 15.66667
+
+$runoff
+[1] 10.44444
+
+$soil_moisture
+[1] 15.66667
+
+
+Structure of prcp_droughts_ceu:
+'data.frame':	11 obs. of  4 variables:
+ $ year    : num  1858 1863 1893 1904 1911 ...
+ $ region  : chr  "CEU" "CEU" "CEU" "CEU" ...
+ $ severity: num  3.8 3.5 3.6 3.5 3.4 4.2 3.7 3.8 3.5 2.8 ...
+ $ area    : num  40 35 45 60 65 55 75 70 60 45 ...
+
+Years after 1900:
+[1] 1904 1911 1921 1934 1947 1976 2003 2015
+
+50-year intervals:
+int_50
+[1.76e+03,1.81e+03) [1.81e+03,1.86e+03) [1.86e+03,1.91e+03) [1.91e+03,1.96e+03) 
+                  0                   1                   3                   4 
+[1.96e+03,2.01e+03] 
+                  2 
+
+Days since last drought: 3496 
