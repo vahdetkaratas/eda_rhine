@@ -1,0 +1,29 @@
+
+Comprehensive Station Statistics:
+   station mean_value median_value   sd_value        cv    q10   q90 mean_high  mean_low
+    <fctr>      <num>        <num>      <num>     <num>  <num> <num>     <num>     <num>
+1:    KOEL  2086.0978      1850.00 1038.93112 0.4980261 1100.0  3310 4446.7365 923.79990
+2:    BASR  1043.9559       968.00  457.03681 0.4377932  524.0  1670 1971.9523 442.08297
+3:    DOMA   117.4185        85.22   97.29337 0.8286036   32.1   246  339.8855  26.85877
+   high_days low_days
+       <int>    <int>
+1:      7297     6979
+2:      5405     5361
+3:      4193     4130
+
+Seasonal Statistics:
+   station season mean_value median_value        cv
+    <fctr> <fctr>      <num>        <num>     <num>
+1:    KOEL Winter 2332.44986     1950.000 0.5915351
+2:    KOEL Summer 2039.43662     1940.000 0.3209349
+3:    BASR Winter  769.00432      673.000 0.4672076
+4:    BASR Summer 1423.28859     1387.095 0.2899174
+5:    DOMA Winter   48.95873       41.100 0.4840847
+6:    DOMA Summer  215.27264      194.000 0.4801726
+
+Regression Statistics:
+   station  slope_2016 r_squared_2016 p_value_2016  slope_2010 r_squared_2010 p_value_2010
+    <char>       <num>          <num>        <num>       <num>          <num>        <num>
+1:    DOMA -0.04004293   8.274164e-05   0.15475639 -0.08682061   0.0003130652 8.263763e-03
+2:    BASR  0.14912926   4.167116e-05   0.31259166  0.27654392   0.0001189665 1.035217e-01
+3:    KOEL  0.74366530   1.764654e-04   0.03770236  1.87256246   0.0009171849 6.146712e-06

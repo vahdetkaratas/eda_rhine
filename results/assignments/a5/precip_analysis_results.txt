@@ -1,0 +1,42 @@
+
+Monthly Precipitation Statistics:
+    month_name season mean_precip sd_precip cv_precip
+        <fctr> <fctr>       <num>     <num>     <num>
+ 1:        Jan Winter    2.032199  2.595552  1.277213
+ 2:        Feb Winter    1.951461  2.593527  1.329018
+ 3:        Mar  Other    1.843603  2.315285  1.255848
+ 4:        Apr  Other    1.984725  2.295018  1.156340
+ 5:        May  Other    2.426527  2.568484  1.058502
+ 6:        Jun Summer    2.904933  3.077642  1.059454
+ 7:        Jul Summer    2.920927  3.066932  1.049986
+ 8:        Aug Summer    2.807168  3.118876  1.111040
+ 9:        Sep  Other    2.498160  3.075233  1.230999
+10:        Oct  Other    2.344311  2.980984  1.271582
+11:        Nov  Other    2.368808  2.899155  1.223888
+12:        Dec Winter    2.250208  2.911679  1.293960
+
+
+Precipitation Trends:
+      period         slope    r_squared   p_value
+      <char>         <num>        <num>     <num>
+1: 1950-2016 -8.243390e-06 2.895775e-09 0.9932837
+2: 1950-2010  1.034927e-04 3.795248e-07 0.9267375
+
+
+Precipitation-Runoff Correlations by Station:
+    sname correlation correlation_lagged
+   <fctr>       <num>              <num>
+1:   KOEL -0.07509402        -0.03496854
+2:   BASR  0.19713897         0.23960242
+3:   DOMA  0.24007368         0.26020180
+
+
+Seasonal Precipitation-Runoff Relationships:
+    sname season mean_precip mean_runoff precip_runoff_ratio
+   <fctr> <fctr>       <num>       <num>               <num>
+1:   KOEL Winter    62.39688  2335.39465          0.02671792
+2:   KOEL Summer    89.29526  2041.24750          0.04374544
+3:   BASR Winter    63.36582   768.55876          0.08244759
+4:   BASR Summer    89.29337  1424.47552          0.06268508
+5:   DOMA Winter    65.41914    48.89024          1.33808176
+6:   DOMA Summer    88.53465   215.80187          0.41025896
